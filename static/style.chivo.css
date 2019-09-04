@@ -6,9 +6,6 @@
     border-radius: 3px 3px 0 0;
 
 }
-#login-main .login_error{
-    color: rgba(204, 83, 83, 0.705);
-}
 
 .btn-jupyter {
     color: #fff;
@@ -16,7 +13,6 @@
     border-color: rgb(115, 179, 226);
 
 }
-
 .btn-jupyter.focus,
 .btn-jupyter:focus {
  color:#fff;
@@ -65,3 +61,61 @@ fieldset[disabled] .btn-jupyter:hover {
  color:rgb(115, 179, 226);
  background-color:#fff
 }
+
+#login-main {
+    display:table;
+    height:80vh
+   }
+   #login-main #insecure-login-warning {
+    background-color:#fcf8e3;
+    padding:10px
+   }
+   a#login-main #insecure-login-warning:focus,
+   a#login-main #insecure-login-warning:hover {
+    background-color:#f7ecb5
+   }
+   #login-main .service-login {
+    text-align:center;
+    display:table-cell;
+    vertical-align:middle;
+    margin:auto auto 20% auto
+   }
+   #login-main form {
+    display:table-cell;
+    vertical-align:middle;
+    margin:auto auto 20% auto;
+    width:350px;
+    font-size:large
+   }
+   #login-main .input-group,
+   #login-main button,
+   #login-main input[type=text] {
+    width:100%
+   }
+   #login-main input[type=submit] {
+    margin-top:16px
+   }
+   #login-main .form-control:focus,
+   #login-main input[type=submit]:focus {
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(20, 82, 126);
+    border-color:rgb(20, 82, 126);
+    outline-color:rgb(20, 82, 126);
+   }
+   #login-main .login_error {
+    color: rgba(204, 83, 83, 0.705);
+    font-weight:700;
+    text-align:center
+   }
+   #login-main .auth-form-header {
+    padding:10px 20px;
+    color:#fff;
+    background:rgb(20, 82, 126);
+    border-radius:3px 3px 0 0
+   }
+   #login-main .auth-form-body {
+    padding:20px;
+    font-size:14px;
+    border:thin silver solid;
+    border-top:none;
+    border-radius:0 0 3px 3px
+   }

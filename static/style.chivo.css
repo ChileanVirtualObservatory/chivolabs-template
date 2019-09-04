@@ -13,3 +13,7 @@
     border-color: rgb(115, 179, 226);
 
 }
+
+#login-main .login_error{
+    color: rgb(115, 179, 226);
+}

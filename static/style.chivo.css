@@ -7,6 +7,17 @@
 
 }
 
+.body{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:14px;
+    line-height:1.42857143;
+    color:#333;
+    /* background-color: #42AAF4; */
+    /* background-color:#fff; */
+	background-image: url(./images/pattern-zodiac-constellation.jpg);
+	border-right: 2px solid #CCC;
+}
+
 .btn-jupyter {
     color: #fff;
     background-color: rgb(115, 179, 226);

@@ -15,12 +15,12 @@
 }
 
 #login-main .login_error{
-    color: rgb(115, 179, 226);
+    color: rgba(204, 83, 83, 0.705);
 }
 
 .btn-jupyter:hover {
     color: #fff;
     background-color: rgb(115, 179, 226);
-    border-color: rgb(115, 179, 226);
+    border-color: rgb(20, 82, 126);
 
 }
